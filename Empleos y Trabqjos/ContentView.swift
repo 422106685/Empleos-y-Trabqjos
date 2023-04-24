@@ -10,9 +10,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "")
+            Image(systemName: "person.crop.circle")
+                
                 .imageScale(.large)
-                .foregroundColor(.yellow)
+                .foregroundColor(Color.blue)
+                .padding()
             Text("SAVE THE SEA")
                 .font(.title)
                 .fontWeight(.semibold)

@@ -11,14 +11,20 @@
 		F02CF21E29F6FAFD00E33EAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02CF21D29F6FAFD00E33EAC /* ContentView.swift */; };
 		F02CF22029F6FAFE00E33EAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F02CF21F29F6FAFE00E33EAC /* Assets.xcassets */; };
 		F02CF22329F6FAFE00E33EAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F02CF22229F6FAFE00E33EAC /* Preview Assets.xcassets */; };
+		F02CF22A29F7203B00E33EAC /* SegundaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02CF22929F7203B00E33EAC /* SegundaView.swift */; };
+		F02CF22C29F7337400E33EAC /* vidaMarinaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02CF22B29F7337400E33EAC /* vidaMarinaView.swift */; };
+		F02CF22E29F733A800E33EAC /* IntroducciónView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02CF22D29F733A800E33EAC /* IntroducciónView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F02CF21829F6FAFD00E33EAC /* Empleos y Trabqjos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Empleos y Trabqjos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02CF21B29F6FAFD00E33EAC /* Empleos_y_TrabqjosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empleos_y_TrabqjosApp.swift; sourceTree = "<group>"; };
-		F02CF21D29F6FAFD00E33EAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F02CF21D29F6FAFD00E33EAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 8; };
 		F02CF21F29F6FAFE00E33EAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F02CF22229F6FAFE00E33EAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F02CF22929F7203B00E33EAC /* SegundaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundaView.swift; sourceTree = "<group>"; };
+		F02CF22B29F7337400E33EAC /* vidaMarinaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vidaMarinaView.swift; sourceTree = "<group>"; };
+		F02CF22D29F733A800E33EAC /* IntroducciónView.swift */ = {isa = PBXFileReference; indentWidth = 3; lastKnownFileType = sourcecode.swift; path = "IntroducciónView.swift"; sourceTree = "<group>"; tabWidth = 5; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				F02CF21B29F6FAFD00E33EAC /* Empleos_y_TrabqjosApp.swift */,
+				F02CF22D29F733A800E33EAC /* IntroducciónView.swift */,
 				F02CF21D29F6FAFD00E33EAC /* ContentView.swift */,
+				F02CF22929F7203B00E33EAC /* SegundaView.swift */,
+				F02CF22B29F7337400E33EAC /* vidaMarinaView.swift */,
 				F02CF21F29F6FAFE00E33EAC /* Assets.xcassets */,
 				F02CF22129F6FAFE00E33EAC /* Preview Content */,
 			);
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F02CF21E29F6FAFD00E33EAC /* ContentView.swift in Sources */,
+				F02CF22E29F733A800E33EAC /* IntroducciónView.swift in Sources */,
 				F02CF21C29F6FAFD00E33EAC /* Empleos_y_TrabqjosApp.swift in Sources */,
+				F02CF22C29F7337400E33EAC /* vidaMarinaView.swift in Sources */,
+				F02CF22A29F7203B00E33EAC /* SegundaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
