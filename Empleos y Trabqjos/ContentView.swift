@@ -10,10 +10,26 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: "")
                 .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+                .foregroundColor(.yellow)
+            Text("SAVE THE SEA")
+                .font(.title)
+                .fontWeight(.semibold)
+                .foregroundColor(Color.black)
+                .padding()
+            Text("Lo que sabemos es una gota de agua; lo que ignoramos es el océano -Isaac Newton")
+                .font(.subheadline)
+                .fontWeight(.regular)
+                .foregroundColor(Color.gray)
+                .multilineTextAlignment(.center)
+                .lineLimit(/*@START_MENU_TOKEN@*/8/*@END_MENU_TOKEN@*/)
+                .padding(.vertical, 66.0)
+                
+            Button("Siguiente") {
+                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+            }.buttonStyle(.borderedProminent)
+
         }
         .padding()
     }
