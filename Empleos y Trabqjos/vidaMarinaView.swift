@@ -94,34 +94,44 @@ struct vidaMarinaView: View {
 
 
 struct DetailsView: View{
+    
     let animalesItem: animales
     
     var body: some View{
-        VStack(alignment: .leading){
-            HStack{
-                VStack(alignment: .center ,spacing: 5){
-                    Text(animalesItem.nombre)
-                        .font(.largeTitle)
-                    animalesItem.Foto
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 360, height: 200)
-                        .cornerRadius(30)
-                               
-                    Text(animalesItem.descripcion)
-                        .shadow(radius: 3)
-                        .multilineTextAlignment(.center)
-                        .frame(width: 365, height: 265)
-                        .overlay(Rectangle().stroke(Color.white, lineWidth: 3))
+        ScrollView{
+            ZStack{
+                Image("fondo").resizable().frame(height: 700)
+                VStack(alignment: .leading){
+                    HStack{
+                        VStack(alignment: .center ,spacing: 5){
+                            Text(animalesItem.nombre)
+                                .font(.title)
+                                .fontWeight(.bold)
+                                .foregroundColor(.white)
+                                .padding(.vertical, 20.0)
+                            animalesItem.Foto
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 360, height: 200)
+                                .cornerRadius(30)
+                            
+                            Text(animalesItem.descripcion)
+                                .shadow(radius: 3)
+                                .multilineTextAlignment(.center)
+                                .frame(width: 365, height: 265)
+                                .foregroundColor(.white)
+                                .overlay(Rectangle().stroke(Color.white, lineWidth: 3))
+                            
+                        }
+                        .padding(10)
+                        
+                    }
                 }
-                .padding(10)
-           
             }
+            
         }
     }
-    
 }
-
 
 struct vidaMarinaView_Previews: PreviewProvider {
     static var previews: some View {
