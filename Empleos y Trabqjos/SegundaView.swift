@@ -1,5 +1,5 @@
 //
-//  SwiftUIView.swift
+//  SegundaView.swift
 //  Empleos y Trabqjos
 //
 //  Created by CEDAM25 on 24/04/23.
@@ -7,17 +7,17 @@
 
 import SwiftUI
 
-struct SwiftUIView: View {
+struct SegundaView: View {
     var body: some View {
         VStack{
-            Text("BIENVENIDO :)")
+            Text("BIENVENIDO😄")
                 .font(.title)
                 .padding(.vertical, 47.0)
-            Button("Vida Marina en Peligro de extinción") {
+            Button("Vida marina en peligro de extinción") {
                 
             }.buttonStyle(.bordered)
                 .padding()
-            Button("Como nos Afecta la Contaminación") {
+            Button("Como nos afecta la contaminación") {
                 /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
             }.buttonStyle(.bordered)
                 .padding()
@@ -29,11 +29,11 @@ struct SwiftUIView: View {
             
         }
     }
-    
 }
 
-struct SwiftUIView_Previews: PreviewProvider {
+struct SegundaView_Previews: PreviewProvider {
     static var previews: some View {
-        SwiftUIView()
+        SegundaView()
     }
 }
+
